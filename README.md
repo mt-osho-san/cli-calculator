@@ -3,6 +3,7 @@
 ## requirements
 
 - This is the cli calculator which can do four arithmetic operations.
+- Zero division error.
 
 ## sample
 
@@ -24,7 +25,7 @@
 - divide 3 2
 - 1.5
 
-## ディレクトリ
+## Directory
 
 - main.rs
 - calc.rs

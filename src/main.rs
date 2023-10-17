@@ -14,8 +14,9 @@ fn main() {
         Sub { num1, num2 } => calc::sub(num1, num2),
         Mul { num1, num2 } => calc::mul(num1, num2),
         Div { num1, num2 } => calc::div(num1, num2),
+    };
+    match x {
+        Ok(v) => println!("The answer is {}", v),
+        Err(e) => eprintln!("Error: {}", e),
     }
-    .expect("failed to operate");
-
-    println!("The ansewer is {}", x);
 }
